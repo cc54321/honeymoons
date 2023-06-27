@@ -1,0 +1,88 @@
+const ResortData = [
+  {
+    id: 1,
+    name: "Sandals Royal Caribbean",
+    location: "Montego Bay, Jamaica",
+    description: "Experience the ultimate luxury at Sandals Royal Caribbean with its over-the-water villas, private offshore island, and world-class amenities.",
+    image: "https://latesttravel.com/wp-content/uploads/2023/06/sandals-royal-caribbean.jpg",
+  },
+  {
+    id: 2,
+    name: "Excellence Playa Mujeres",
+    location: "Cancun, Mexico",
+    description: "Indulge in pure luxury and relaxation at Excellence Playa Mujeres, an adults-only resort offering spacious suites, gourmet dining, and a serene beachfront.",
+    image: "https://latesttravel.com/wp-content/uploads/2023/06/Excellence-Playa-Mujeres.jpg",
+  },
+  {
+    id: 3,
+    name: "Couples Tower Isle",
+    location: "Ocho Rios, Jamaica",
+    description: "Escape to Couples Tower Isle, a chic and romantic resort nestled on a private beach, offering elegant accommodations and a wide range of activities.",
+    image: "https://latesttravel.com/wp-content/uploads/2023/06/couples_tower_isle.jpg",
+  },
+  {
+    id: 4,
+    name: "Secrets Maroma Beach Riviera Cancun",
+    location: "Playa del Carmen, Mexico",
+    description: "Discover the Secrets Maroma Beach Riviera Cancun, a luxurious adults-only resort featuring pristine white-sand beaches, gourmet dining, and world-class spa.",
+    image: "https://latesttravel.com/wp-content/uploads/2023/06/Secrets-Maroma-Beach-Riviera-Cancun.jpg",
+  },
+  {
+    id: 5,
+    name: "The Caves",
+    location: "Negril, Jamaica",
+    description: "Experience a unique and intimate retreat at The Caves, an exclusive adults-only resort offering stunning cliffside accommodations and breathtaking ocean views.",
+    image: "https://latesttravel.com/wp-content/uploads/2023/06/the_caves.jpg",
+  },
+  {
+    id: 6,
+    name: "Sandals Grande St. Lucian",
+    location: "Gros Islet, St. Lucia",
+    description: "Immerse yourself in luxury at Sandals Grande St. Lucian, an all-inclusive resort set on a stunning beach with panoramic views of the Caribbean Sea.",
+    image: "https://latesttravel.com/wp-content/uploads/2023/06/sandals_grande_st_lucian.jpg",
+  },
+  {
+    id: 7,
+    name: "Excellence Punta Cana",
+    location: "Punta Cana, Dominican Republic",
+    description: "Escape to Excellence Punta Cana, a tropical paradise offering spacious suites, gourmet dining, and a wide range of activities for couples to enjoy.",
+    image: "https://latesttravel.com/wp-content/uploads/2023/06/excellence_punta_cana.jpg",
+  },
+  {
+    id: 8,
+    name: "Couples Swept Away",
+    location: "Negril, Jamaica",
+    description: "Enjoy a romantic getaway at Couples Swept Away, an all-inclusive resort offering a beautiful beachfront setting, luxurious accommodations, and a variety of water sports.",
+    image: "https://latesttravel.com/wp-content/uploads/2023/06/couples_swept_away.jpg",
+  },
+  {
+    id: 9,
+    name: "Secrets Wild Orchid Montego Bay",
+    location: "Montego Bay, Jamaica",
+    description: "Unwind and indulge at Secrets Wild Orchid Montego Bay, an adults-only resort featuring elegant suites, gourmet dining, and a vibrant beachfront setting.",
+    image: "https://latesttravel.com/wp-content/uploads/2023/06/secrets_wild_orchid.jpg",
+  },
+  {
+    id: 10,
+    name: "Sandals Emerald Bay",
+    location: "Great Exuma, Bahamas",
+    description: "Experience luxury and seclusion at Sandals Emerald Bay, a stunning resort set on a pristine beach with championship golf, a world-class spa, and gourmet dining.",
+    image: "https://latesttravel.com/wp-content/uploads/2023/06/sandals_emerald_bay.jpg",
+  },
+  {
+    id: 11,
+    name: "Excellence El Carmen",
+    location: "Punta Cana, Dominican Republic",
+    description: "Escape to Excellence El Carmen, an adults-only resort offering modern suites, a tranquil beachfront, and a wide range of amenities for couples to enjoy.",
+    image: "https://latesttravel.com/wp-content/uploads/2023/06/excellence_el_carmen.jpg",
+  },
+  {
+    id: 12,
+    name: "Couples Sans Souci",
+    location: "Ocho Rios, Jamaica",
+    description: "Discover the romantic charm of Couples Sans Souci, an all-inclusive resort nestled in the cliffs of Jamaica's lush coastline, offering breathtaking views and serene gardens.",
+    image: "https://latesttravel.com/wp-content/uploads/2023/06/couples_sans_souci.jpg",
+  },
+];
+
+export default ResortData;

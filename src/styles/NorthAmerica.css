@@ -1,0 +1,42 @@
+
+.north-anerica-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center; /* Center the heading */
+}
+
+.north-heading {
+  text-align: center;
+}
+
+.north-america-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 20px;
+  justify-items: center; /* Center the items horizontally */
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .north-america-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .north-america-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.north-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.north-item img {
+  max-width: 400px;
+  width: 100%;
+  max-height: 250px;
+}

@@ -1,0 +1,51 @@
+.resorts-container {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  
+  .resorts-heading {
+    text-align: center;
+  }
+
+.resorts-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 20px;
+  justify-items: center; /* Center the items horizontally */
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .resorts-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .resorts-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+  
+  .resort-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .resort-image {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .resort-name {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .resort-description {
+    margin-top: 5px;
+    color: #666;
+  }
+  
