@@ -8,6 +8,8 @@ import Resorts from "./pages/Resorts";
 import Cruises from "./pages/Cruises";
 import NorthAmerica from "./pages/NorthAmerica";
 import ExoticTravel from "./pages/ExoticTravel";
+import Register from "./auth/Register";
+import Login from "./auth/Login";
 
 const App = () => {
   return (
@@ -20,7 +22,9 @@ const App = () => {
           <Route path="/cruises" element={<Cruises />} />
           <Route path="/exotic-travel" element={<ExoticTravel />} />
           <Route path="/north-america" element={<NorthAmerica />} />
-          <Route path="/resorts" element={<Resorts />} /> {/* Add this line */}
+          <Route path="/resorts" element={<Resorts />} />
+          <Route path="/register" element={<Register />} /> {/* Add this line */}
+          <Route path="/login" element={<Login />} /> {/* Add this line */}
           {/* Add more routes for other pages */}
         </Routes>
         <Footer />
@@ -30,6 +34,49 @@ const App = () => {
 };
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+// import React from "react";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import Header from "./global/Header";
+// import Footer from "./global/Footer";
+// import Home from "./pages/Home";
+// import Honeymoons from "./pages/Honeymoons";
+// import Resorts from "./pages/Resorts";
+// import Cruises from "./pages/Cruises";
+// import NorthAmerica from "./pages/NorthAmerica";
+// import ExoticTravel from "./pages/ExoticTravel";
+
+// const App = () => {
+//   return (
+//     <Router>
+//       <div>
+//         <Header />
+//         <Routes>
+//           <Route path="/" element={<Home />} />
+//           <Route path="/honeymoons" element={<Honeymoons />} />
+//           <Route path="/cruises" element={<Cruises />} />
+//           <Route path="/exotic-travel" element={<ExoticTravel />} />
+//           <Route path="/north-america" element={<NorthAmerica />} />
+//           <Route path="/resorts" element={<Resorts />} /> {/* Add this line */}
+//           {/* Add more routes for other pages */}
+//         </Routes>
+//         <Footer />
+//       </div>
+//     </Router>
+//   );
+// };
+
+// export default App;
 
 
 
