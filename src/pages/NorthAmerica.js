@@ -10,8 +10,10 @@ const NorthAmerica = () => {
       <div className="north-america-grid">
         {northAmericaData.map((honeymoon) => (
           <div className="north-item" key={honeymoon.id}>
+            <a href={honeymoon.imageLink} target="_blank" rel="noopener noreferrer">
+              <img src={honeymoon.image} alt={honeymoon.destination} />
+            </a>
             <h2>{honeymoon.destination}</h2>
-            <img src={honeymoon.image} alt={honeymoon.destination} />
             <p>{honeymoon.description}</p>
           </div>
         ))}
