@@ -9,8 +9,10 @@ const Cruises = () => {
       <div className="cruises-grid">
         {cruiseData.map((cruise) => (
           <div className="cruise-item" key={cruise.id}>
+             <a href={cruise.imageLink} target="_blank" rel="noopener noreferrer">
+              <img src={cruise.image} alt={cruise.title} className="cruise-image" />
+            </a>
             <h2>{cruise.title}</h2>
-            <img src={cruise.image} alt={cruise.title} />
             <p>{cruise.description}</p>
           </div>
         ))}
